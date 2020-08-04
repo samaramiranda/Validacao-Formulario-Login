@@ -4,9 +4,9 @@
 
 
 ## :rocket: Sobre o projeto
-Este é um formulário simples desenvolvido em ReactJS apenas para estudo da criação e validação de formulários.
+Este é um formulário simples desenvolvido em ReactJS apenas para estudo sobre a criação e validação de formulários.
 
-A responsabilidade de lidar com eventos nos campos e submit do formulário ficou por conta do "formik" juntamente com seus componentes para criação de formulário e tratamento de erros.
+A responsabilidade de lidar com eventos nos campos e o submit do formulário ficaram por conta do "formik", juntamente com seus componentes para criação de formulário e tratamento de erros.
 Já o "Yup" ficou encarregado da validação dos campos do formulário, foi criado um schema de validação de cada campo informando quais validações eles devem ter.
 
 Na página de Login o usuário deve informar os seguintes dados:
@@ -15,7 +15,7 @@ Na página de Login o usuário deve informar os seguintes dados:
 
 Caso um dos campos esteja vazio ou preenchido com dados inválidos são exibidas na tela mensagens com os erros. 
 
-No e-mail caso ele não esteja preenchido em formato de e-mail, por exemplo sem o "@", é exibida a mensagem de erro.
+No e-mail, caso ele não esteja preenchido em formato de e-mail, por exemplo sem o "@", é exibida a mensagem de erro.
 Já na senha a mensagem de erro é exibida caso ela possua menos de 8 caracteres.
 
 
