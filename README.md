@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  📄 Validação de Formulário de Login
+</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+## :rocket: Sobre o projeto
+Este é um formulário simples desenvolvido em ReactJS apenas para estudo da criação e validação de formulários.
 
-### `yarn start`
+A responsabilidade de lidar com eventos nos campos e submit do formulário ficou por conta do "formik" juntamente com seus componentes para criação de formulário e tratamento de erros.
+Já o "Yup" ficou encarregado da validação dos campos do formulário, foi criado um schema de validação de cada campo informando quais validações eles devem ter.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Na página de Login o usuário deve informar os seguintes dados:
+- E-mail;
+- Senha.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Caso um dos campos esteja vazio ou preenchido com dados inválidos são exibidas na tela mensagens com os erros. 
 
-### `yarn test`
+No e-mail caso ele não esteja preenchido em formato de e-mail, por exemplo sem o "@", é exibida a mensagem de erro.
+Já na senha a mensagem de erro é exibida caso ela possua menos de 8 caracteres.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :computer: Tecnologias usadas:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### ReactJS:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `react, react-dom, react-scripts`: Para o acesso aos elementos HTML, a árvore de elementos e alguns scripts para a aplicação no ReactJS;
+- `formik`: Para trabalhar com formulários;
+- `yup`: Para validação dos campos.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :bulb: Telas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![tela1](https://user-images.githubusercontent.com/23708544/89242147-37425380-d5d7-11ea-8f59-22748c3d7fdc.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![tela2](https://user-images.githubusercontent.com/23708544/89242148-37425380-d5d7-11ea-998e-9b9f3bbed0d0.png)
 
-## Learn More
+![tela3](https://user-images.githubusercontent.com/23708544/89242150-37daea00-d5d7-11ea-86a7-0a86ddfdf7cd.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![tela4](https://user-images.githubusercontent.com/23708544/89242151-38738080-d5d7-11ea-8d6e-8fad57034139.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Captura de Tela (171)](https://user-images.githubusercontent.com/23708544/89242141-34dff980-d5d7-11ea-98b8-6e6b6cb96ee4.png)
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
